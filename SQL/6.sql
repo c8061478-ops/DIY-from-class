@@ -1,0 +1,4 @@
+SELECT genre, COUNT(*)
+FROM Livre
+GROUP BY genre
+HAVING COUNT(*) >=2

@@ -1,0 +1,1 @@
+SELECT titre FROM Livre WHERE nb_pages > 400 AND genre != 'Horreur' 
